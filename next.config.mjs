@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        domains: ["i.imgur.com"],
+        dangerouslyAllowSVG: true
+    }
+};
 
 export default nextConfig;
