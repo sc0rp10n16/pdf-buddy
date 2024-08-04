@@ -50,7 +50,7 @@ export default function Home() {
               <br />
               <br /> Upload your document and our buddy will answer questions, summerize content and etc. Ideal for everyone, <span className="font-bold text-indigo-600">PDF Buddy</span>{" "}
               turns your static documents into{" "}
-              <span className="font-bold">dynamic comversations</span>
+              <span className="font-bold">dynamic conversations</span> {" "}
               enhancing productivity 10x fold effortlessly.
 
             </p>
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <Image
               alt="App SS"
-              src="https://i.imgur.com/VciRSTI.jpg"
+              src="/image.png"
               width={2432}
               height={1442}
               className="mb-[-0%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"

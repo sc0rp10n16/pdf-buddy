@@ -19,7 +19,7 @@ import { describeIndexStats } from '@pinecone-database/pinecone/dist/data/descri
 auth
 const model = new ChatGoogleGenerativeAI({
     apiKey: process.env.GOOGLE_API_KEY,
-    modelName: "gemini-pro"
+    modelName: "gemini-1.5-pro"
 })
 
 export const indexName = "pdf-buddy"
